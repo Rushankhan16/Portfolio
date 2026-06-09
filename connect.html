@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect with me</title>
+    <link rel="stylesheet" href="style_1.css">
+</head>
+<body>
+   
+    <section id="contact">
+
+    <h2 id="con">Connect with Me</h2>
+
+    <form id="contactform">
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <input type="number" placeholder="Mobile number" required>
+    <input type="text" placeholder="Linkedln  (optional)" >
+    <input type="text" placeholder="GitHub  (optional)" >
+    <textarea rows="5" cols="25" placeholder="Describe youself"></textarea>
+
+    <button type="submit">Send</button>
+    </form>
+
+    </section>
+
+    <div>
+      <h3>Connection is important.</h3>
+      <h3>Be connected and aware with the world.</h3>
+    </div>
+
+
+
+<script>
+  let form = document.getElementById("contactform");
+
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+
+    alert("Successfully, Message sent ✅");
+
+    form.reset();
+  });
+
+    </script>
+    
+</body>
+</html>

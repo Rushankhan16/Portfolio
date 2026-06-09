@@ -1,0 +1,197 @@
+body {
+    background: #0f172a;
+    /* background-color: #121212; */
+    color: white;
+    text-align: center;
+}
+span{
+    color: #38bdf8;
+    text-shadow: 1px 1px 1px;
+}
+.center{
+    margin: 100px;
+    padding: 0cm;
+}
+.main{
+     margin: 120px;
+     padding: 0cm;
+}
+#myid{
+     text-shadow: 0px 1px 0px;
+}
+.fill{
+    height: 10px;
+    border-radius: 10px;
+}
+.nav{
+    text-align: left;
+    background-color: #515f87;  
+    margin:0px;
+    padding: 10px;
+    display: flex;
+    align-items: center; 
+    gap: 420px;
+    text-shadow: 5px 5px 10px gray;
+}
+ul{
+    width: 300px;
+    margin:auto;
+}
+li{
+    list-style-position: inside;
+    text-align: left;
+    margin:5px 0;
+    font-size: 20px;
+}
+.button{
+    position: absolute;
+    top: 40px;
+    right:0;
+    display:flex;
+    gap:8px;
+    padding:0px;
+    margin: 20px;
+    height: 25px;
+    font-weight: bold;
+    border-radius: 0px;
+}
+.zero{
+    width: 400px;
+    margin:auto;
+}
+h2{
+    font-weight: bolder;
+}
+a{
+    color:white;
+    background-color:black;
+    border:2px solid black;
+    padding:10px 20px;
+    display:inline-block;
+}
+.extra{
+    display:flex;
+    justify-content:center;
+    padding: 20px;
+    gap:40px;
+}
+#rola{
+    background-color: #38bdf8;
+    padding: 2px;
+    width: 100px;
+    height: 30px;
+    color: rgb(15, 14, 14);
+    font-weight:bold;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+p{
+    font-size: 20px;
+}
+.box{
+    position:absolute;
+    left: 20px;
+    top:150px;
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 160px;
+    width:200px;
+    padding: 10px;
+}
+#work{
+    text-shadow: 0px 1px 1px;
+    color: #38bdf8;
+}
+.change {
+    position: absolute;
+    right: 20px;
+    padding: 5px;
+    height: 120px;
+    width: 200px;
+
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.adv{
+    color: #fc0707;
+    font-weight: bolder;
+}
+.btnjs{
+    position: absolute;
+    top: 0px;
+    right:0;
+    margin: 20px;
+    font-weight: bold;
+}
+#changemode{
+     border: 2px solid ;
+    border-radius: 5px;
+    padding: 3px;
+}
+#closebtn{
+     border: 2px solid ;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.light{
+    background-color:white;
+    color:black;
+}
+.light .nav{
+  background-color: #f0f0f0;
+  color: black;
+}
+.light span{
+    color: brown;
+}
+.light #work{
+    color: brown;
+}
+.light #rola{
+    background-color: grey;
+}
+.light #connect{
+    color:gray;
+}
+.light #grey{
+    background-color: rgb(74, 74, 127);
+}
+
+#contact {
+  width: 300px;
+  padding: 20px;
+  margin: 0 auto;
+  margin-top: 5%;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+#contactform {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#con {
+  margin-bottom: 10px;
+} 
+
+#Plus{
+    top: 75px;
+}
+.card{
+    height: 300px;
+    width: 300px;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 6px;
+    margin: 30px auto;
+}
+#buybtn{
+    border: 2px solid white;
+    border-radius: 5px;
+}
+#lastbtn{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 4px;
+}
